@@ -1,0 +1,12 @@
+{
+  "spark_version": "7.0.x-scala2.12",
+  "num_workers": 1,
+  "node_type_id": "Standard_DS3_v2",
+  "spark_env_vars": {
+    "MODEL_NAME": "{{MODEL_NAME}}"
+    {% if AZURE_STORAGE_ACCESS_KEY is defined and AZURE_STORAGE_ACCESS_KEY|length %}
+      ,
+      "AZURE_STORAGE_ACCESS_KEY": "{{AZURE_STORAGE_ACCESS_KEY}}"
+    {% endif %}
+  }
+}

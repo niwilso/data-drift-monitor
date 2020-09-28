@@ -1,0 +1,166 @@
+modelID,group_col,group_value,feature,statusMsg,nValues
+1,state,Washington,fips,valid,40
+1,state,Illinois,fips,valid,103
+1,state,California,fips,valid,59
+1,state,Arizona,fips,valid,16
+1,state,Massachusetts,fips,valid,15
+1,state,Wisconsin,fips,valid,73
+1,state,Texas,fips,valid,252
+1,state,Nebraska,fips,valid,91
+1,state,Utah,fips,valid,29
+1,state,Oregon,fips,valid,35
+1,state,Florida,fips,valid,68
+1,state,New York,fips,valid,58
+1,state,Rhode Island,fips,valid,6
+1,state,Georgia,fips,valid,160
+1,state,New Hampshire,fips,valid,11
+1,state,North Carolina,fips,valid,100
+1,state,New Jersey,fips,valid,22
+1,state,Colorado,fips,valid,64
+1,state,Maryland,fips,valid,25
+1,state,Nevada,fips,valid,17
+1,state,Tennessee,fips,valid,96
+1,state,Hawaii,fips,valid,5
+1,state,Indiana,fips,valid,93
+1,state,Kentucky,fips,valid,121
+1,state,Minnesota,fips,valid,88
+1,state,Oklahoma,fips,valid,78
+1,state,Pennsylvania,fips,valid,68
+1,state,South Carolina,fips,valid,47
+1,state,District of Columbia,fips,valid,1
+1,state,Kansas,fips,valid,106
+1,state,Missouri,fips,valid,116
+1,state,Vermont,fips,valid,15
+1,state,Virginia,fips,valid,134
+1,state,Connecticut,fips,valid,9
+1,state,Iowa,fips,valid,100
+1,state,Louisiana,fips,valid,65
+1,state,Ohio,fips,valid,89
+1,state,Michigan,fips,valid,84
+1,state,South Dakota,fips,valid,67
+1,state,Arkansas,fips,valid,76
+1,state,Delaware,fips,valid,4
+1,state,Mississippi,fips,valid,83
+1,state,New Mexico,fips,valid,33
+1,state,North Dakota,fips,valid,54
+1,state,Wyoming,fips,valid,24
+1,state,Alaska,fips,valid,27
+1,state,Maine,fips,valid,17
+1,state,Alabama,fips,valid,67
+1,state,Idaho,fips,valid,45
+1,state,Montana,fips,valid,55
+1,state,Puerto Rico,fips,valid,79
+1,state,Virgin Islands,fips,valid,4
+1,state,Guam,fips,valid,1
+1,state,West Virginia,fips,valid,56
+1,state,Northern Mariana Islands,fips,valid,3
+1,state,Washington,cases,valid,1547
+1,state,Illinois,cases,valid,2119
+1,state,California,cases,valid,3340
+1,state,Arizona,cases,valid,1467
+1,state,Massachusetts,cases,valid,1709
+1,state,Wisconsin,cases,valid,1634
+1,state,Texas,cases,valid,3476
+1,state,Nebraska,cases,valid,1129
+1,state,Utah,cases,valid,1107
+1,state,Oregon,cases,valid,989
+1,state,Florida,cases,valid,3532
+1,state,New York,cases,valid,2743
+1,state,Rhode Island,cases,valid,355
+1,state,Georgia,cases,valid,2848
+1,state,New Hampshire,cases,valid,574
+1,state,North Carolina,cases,valid,2506
+1,state,New Jersey,cases,valid,2945
+1,state,Colorado,cases,valid,1688
+1,state,Maryland,cases,valid,1932
+1,state,Nevada,cases,valid,593
+1,state,Tennessee,cases,valid,1943
+1,state,Hawaii,cases,valid,288
+1,state,Indiana,cases,valid,1944
+1,state,Kentucky,cases,valid,1078
+1,state,Minnesota,cases,valid,1637
+1,state,Oklahoma,cases,valid,1139
+1,state,Pennsylvania,cases,valid,2755
+1,state,South Carolina,cases,valid,2029
+1,state,District of Columbia,cases,valid,170
+1,state,Kansas,cases,valid,997
+1,state,Missouri,cases,valid,1461
+1,state,Vermont,cases,valid,236
+1,state,Virginia,cases,valid,2203
+1,state,Connecticut,cases,valid,1033
+1,state,Iowa,cases,valid,1650
+1,state,Louisiana,cases,valid,2433
+1,state,Ohio,cases,valid,2236
+1,state,Michigan,cases,valid,2145
+1,state,South Dakota,cases,valid,632
+1,state,Arkansas,cases,valid,1447
+1,state,Delaware,cases,valid,539
+1,state,Mississippi,cases,valid,1624
+1,state,New Mexico,cases,valid,1079
+1,state,North Dakota,cases,valid,559
+1,state,Wyoming,cases,valid,399
+1,state,Alaska,cases,valid,377
+1,state,Maine,cases,valid,486
+1,state,Alabama,cases,valid,2098
+1,state,Idaho,cases,valid,816
+1,state,Montana,cases,valid,391
+1,state,Puerto Rico,cases,valid,839
+1,state,Virgin Islands,cases,valid,138
+1,state,Guam,cases,valid,113
+1,state,West Virginia,cases,valid,525
+1,state,Northern Mariana Islands,cases,valid,34
+1,state,Washington,deaths,valid,331
+1,state,Illinois,deaths,valid,534
+1,state,California,deaths,valid,596
+1,state,Arizona,deaths,valid,377
+1,state,Massachusetts,deaths,valid,813
+1,state,Wisconsin,deaths,valid,182
+1,state,Texas,deaths,valid,533
+1,state,Nebraska,deaths,valid,96
+1,state,Utah,deaths,valid,116
+1,state,Oregon,deaths,valid,96
+1,state,Florida,deaths,valid,599
+1,state,New York,deaths,valid,816
+1,state,Rhode Island,deaths,valid,105
+1,state,Georgia,deaths,valid,332
+1,state,New Hampshire,deaths,valid,133
+1,state,North Carolina,deaths,valid,188
+1,state,New Jersey,deaths,valid,1085
+1,state,Colorado,deaths,valid,304
+1,state,Maryland,deaths,valid,522
+1,state,Nevada,deaths,valid,201
+1,state,Tennessee,deaths,valid,214
+1,state,Hawaii,deaths,valid,32
+1,state,Indiana,deaths,valid,325
+1,state,Kentucky,deaths,valid,135
+1,state,Minnesota,deaths,valid,289
+1,state,Oklahoma,deaths,valid,126
+1,state,Pennsylvania,deaths,valid,659
+1,state,South Carolina,deaths,valid,211
+1,state,District of Columbia,deaths,valid,127
+1,state,Kansas,deaths,valid,111
+1,state,Missouri,deaths,valid,234
+1,state,Vermont,deaths,valid,32
+1,state,Virginia,deaths,valid,261
+1,state,Connecticut,deaths,valid,411
+1,state,Iowa,deaths,valid,151
+1,state,Louisiana,deaths,valid,430
+1,state,Ohio,deaths,valid,408
+1,state,Michigan,deaths,valid,511
+1,state,South Dakota,deaths,valid,57
+1,state,Arkansas,deaths,valid,85
+1,state,Delaware,deaths,valid,163
+1,state,Mississippi,deaths,valid,119
+1,state,New Mexico,deaths,valid,204
+1,state,North Dakota,deaths,valid,54
+1,state,Wyoming,deaths,valid,14
+1,state,Alaska,deaths,valid,19
+1,state,Maine,deaths,valid,53
+1,state,Alabama,deaths,valid,206
+1,state,Idaho,deaths,valid,75
+1,state,Montana,deaths,valid,31
+1,state,Puerto Rico,deaths,valid,39
+1,state,Virgin Islands,deaths,valid,9
+1,state,Guam,deaths,valid,10
+1,state,West Virginia,deaths,valid,28
+1,state,Northern Mariana Islands,deaths,valid,3

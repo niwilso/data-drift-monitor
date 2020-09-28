@@ -1,0 +1,29 @@
+name: Data Drift Pipeline
+
+conda_env: project_env.yaml
+
+entry_points:
+  validation:
+    parameters:
+      modelID: float
+      data_path: string
+      group_col: string
+      features: string
+    command: "python validation/model_input/validate_fips.py -i {modelID} -p {data_path} -g {group_col} && \
+              python validation/model_input/validate_cases.py -i {modelID} -p {data_path} -g {group_col} && \
+              python validation/model_input/validate_deaths.py -i {modelID} -p {data_path} -g {group_col} && \
+              python validation/model_input/assert_validations.py -i {modelID} -f {features} -g {group_col}"
+
+  distribution:
+    parameters:
+      modelID: float
+      data_path: string
+      features: string
+      datetime_col: string
+      group_col: string
+      baseline_start: string
+      baseline_end: string
+      target_start: string
+      target_end: string
+      p_val: {type: float, default: 0.05}
+    command: "python distribution/calculate_all_drift.py -i {modelID} -x {data_path} -f {features} -t {datetime_col} -g {group_col} -a {baseline_start} -b {baseline_end} -c {target_start} -d {target_end} -p {p_val}"

@@ -1,0 +1,86 @@
+trigger: none
+pr:
+  branches:
+    include:
+      - master
+  paths:
+    include:
+      - projects/*
+
+pool:
+  vmImage: "ubuntu-latest"
+
+variables:
+  - name: PROJECT_NAME
+    value: "ExampleDataDriftProject"
+  # mlops-vg-pr variable group should contain
+  # DATABRICKS_HOST: databricks https URL
+  # DATABRICKS_TOKEN: a personal token to get access to the databricks
+  - group: mlops-vg-pr
+  # mlops-vg-storage variable group should contain (Optional to write artifacts to blob storage)
+  # AZURE_STORAGE_ACCOUNT_NAME: azure blob storage instance name
+  # AZURE_STORAGE_CONTAINER_NAME: azure blob storage container name
+  # AZURE_STORAGE_ACCESS_KEY: azure blob storage access key
+  # Keep the below line commented out if using dbfs, otherwise uncomment if using blob storage instead
+  # - group: mlops-vg-storage
+
+steps:
+  - template: mlops_template.yml
+
+  - task: Bash@3
+    displayName: Execute Data Drift Project (schema validation)
+    inputs:
+      targetType: "inline"
+      script: |
+        python scripts/submit_job.py \
+          --projectEntryPoint validation \
+          --projectPath projects/$(PROJECT_NAME)/ \
+          --projectExperimentFolder $(MODEL_WORKSPACE_DIR)/data_drift \
+    env:
+      MLFLOW_TRACKING_URI: databricks
+      MODEL_NAME: "$(PROJECT_NAME)datadrift"
+      MODEL_ID: $(MODEL_ID)
+      DATA_PATH: $(DATA_PATH)
+      FEATURES: $(FEATURES)
+      DATETIME_COL: $(DATETIME_COL)
+      GROUP_COL: $(GROUP_COL)
+      BASELINE_START: $(BASELINE_START)
+      BASELINE_END: $(BASELINE_END)
+      TARGET_START: $(TARGET_START)
+      TARGET_END: $(TARGET_END)
+      P_VAL: $(P_VAL)
+      OUT_FILE_NAME: $(OUT_FILE_NAME)
+      # Optional to write artifacts to blob storage
+      # Comment out if using dbfs instead of blob storage
+      # AZURE_STORAGE_ACCESS_KEY: $(AZURE_STORAGE_ACCESS_KEY)
+      # AZURE_STORAGE_ACCOUNT_NAME: $(AZURE_STORAGE_ACCOUNT_NAME)
+      # AZURE_STORAGE_CONTAINER_NAME: $(AZURE_STORAGE_CONTAINER_NAME)
+
+  - task: Bash@3
+    displayName: Execute Data Drift Project (distribution drift)
+    inputs:
+      targetType: "inline"
+      script: |
+        python scripts/submit_job.py \
+          --projectEntryPoint distribution \
+          --projectPath projects/$(PROJECT_NAME)/ \
+          --projectExperimentFolder $(MODEL_WORKSPACE_DIR)/data_drift \
+    env:
+      MLFLOW_TRACKING_URI: databricks
+      MODEL_NAME: "$(PROJECT_NAME)datadrift"
+      MODEL_ID: $(MODEL_ID)
+      DATA_PATH: $(DATA_PATH)
+      FEATURES: $(FEATURES)
+      DATETIME_COL: $(DATETIME_COL)
+      GROUP_COL: $(GROUP_COL)
+      BASELINE_START: $(BASELINE_START)
+      BASELINE_END: $(BASELINE_END)
+      TARGET_START: $(TARGET_START)
+      TARGET_END: $(TARGET_END)
+      P_VAL: $(P_VAL)
+      OUT_FILE_NAME: $(OUT_FILE_NAME)
+      # Optional to write artifacts to blob storage
+      # Comment out if using dbfs instead of blob storage
+      # AZURE_STORAGE_ACCESS_KEY: $(AZURE_STORAGE_ACCESS_KEY)
+      # AZURE_STORAGE_ACCOUNT_NAME: $(AZURE_STORAGE_ACCOUNT_NAME)
+      # AZURE_STORAGE_CONTAINER_NAME: $(AZURE_STORAGE_CONTAINER_NAME)

@@ -1,0 +1,779 @@
+{
+    "metadata": {
+        "modelID": 1
+    },
+    "schema_validation": {
+        "state": {
+            "Washington": {
+                "fips": {
+                    "status": "valid",
+                    "n_vals": 40
+                },
+                "cases": {
+                    "status": "valid",
+                    "n_vals": 1547
+                },
+                "deaths": {
+                    "status": "valid",
+                    "n_vals": 331
+                }
+            },
+            "Illinois": {
+                "fips": {
+                    "status": "valid",
+                    "n_vals": 103
+                },
+                "cases": {
+                    "status": "valid",
+                    "n_vals": 2119
+                },
+                "deaths": {
+                    "status": "valid",
+                    "n_vals": 534
+                }
+            },
+            "California": {
+                "fips": {
+                    "status": "valid",
+                    "n_vals": 59
+                },
+                "cases": {
+                    "status": "valid",
+                    "n_vals": 3340
+                },
+                "deaths": {
+                    "status": "valid",
+                    "n_vals": 596
+                }
+            },
+            "Arizona": {
+                "fips": {
+                    "status": "valid",
+                    "n_vals": 16
+                },
+                "cases": {
+                    "status": "valid",
+                    "n_vals": 1467
+                },
+                "deaths": {
+                    "status": "valid",
+                    "n_vals": 377
+                }
+            },
+            "Massachusetts": {
+                "fips": {
+                    "status": "valid",
+                    "n_vals": 15
+                },
+                "cases": {
+                    "status": "valid",
+                    "n_vals": 1709
+                },
+                "deaths": {
+                    "status": "valid",
+                    "n_vals": 813
+                }
+            },
+            "Wisconsin": {
+                "fips": {
+                    "status": "valid",
+                    "n_vals": 73
+                },
+                "cases": {
+                    "status": "valid",
+                    "n_vals": 1634
+                },
+                "deaths": {
+                    "status": "valid",
+                    "n_vals": 182
+                }
+            },
+            "Texas": {
+                "fips": {
+                    "status": "valid",
+                    "n_vals": 252
+                },
+                "cases": {
+                    "status": "valid",
+                    "n_vals": 3476
+                },
+                "deaths": {
+                    "status": "valid",
+                    "n_vals": 533
+                }
+            },
+            "Nebraska": {
+                "fips": {
+                    "status": "valid",
+                    "n_vals": 91
+                },
+                "cases": {
+                    "status": "valid",
+                    "n_vals": 1129
+                },
+                "deaths": {
+                    "status": "valid",
+                    "n_vals": 96
+                }
+            },
+            "Utah": {
+                "fips": {
+                    "status": "valid",
+                    "n_vals": 29
+                },
+                "cases": {
+                    "status": "valid",
+                    "n_vals": 1107
+                },
+                "deaths": {
+                    "status": "valid",
+                    "n_vals": 116
+                }
+            },
+            "Oregon": {
+                "fips": {
+                    "status": "valid",
+                    "n_vals": 35
+                },
+                "cases": {
+                    "status": "valid",
+                    "n_vals": 989
+                },
+                "deaths": {
+                    "status": "valid",
+                    "n_vals": 96
+                }
+            },
+            "Florida": {
+                "fips": {
+                    "status": "valid",
+                    "n_vals": 68
+                },
+                "cases": {
+                    "status": "valid",
+                    "n_vals": 3532
+                },
+                "deaths": {
+                    "status": "valid",
+                    "n_vals": 599
+                }
+            },
+            "New York": {
+                "fips": {
+                    "status": "valid",
+                    "n_vals": 58
+                },
+                "cases": {
+                    "status": "valid",
+                    "n_vals": 2743
+                },
+                "deaths": {
+                    "status": "valid",
+                    "n_vals": 816
+                }
+            },
+            "Rhode Island": {
+                "fips": {
+                    "status": "valid",
+                    "n_vals": 6
+                },
+                "cases": {
+                    "status": "valid",
+                    "n_vals": 355
+                },
+                "deaths": {
+                    "status": "valid",
+                    "n_vals": 105
+                }
+            },
+            "Georgia": {
+                "fips": {
+                    "status": "valid",
+                    "n_vals": 160
+                },
+                "cases": {
+                    "status": "valid",
+                    "n_vals": 2848
+                },
+                "deaths": {
+                    "status": "valid",
+                    "n_vals": 332
+                }
+            },
+            "New Hampshire": {
+                "fips": {
+                    "status": "valid",
+                    "n_vals": 11
+                },
+                "cases": {
+                    "status": "valid",
+                    "n_vals": 574
+                },
+                "deaths": {
+                    "status": "valid",
+                    "n_vals": 133
+                }
+            },
+            "North Carolina": {
+                "fips": {
+                    "status": "valid",
+                    "n_vals": 100
+                },
+                "cases": {
+                    "status": "valid",
+                    "n_vals": 2506
+                },
+                "deaths": {
+                    "status": "valid",
+                    "n_vals": 188
+                }
+            },
+            "New Jersey": {
+                "fips": {
+                    "status": "valid",
+                    "n_vals": 22
+                },
+                "cases": {
+                    "status": "valid",
+                    "n_vals": 2945
+                },
+                "deaths": {
+                    "status": "valid",
+                    "n_vals": 1085
+                }
+            },
+            "Colorado": {
+                "fips": {
+                    "status": "valid",
+                    "n_vals": 64
+                },
+                "cases": {
+                    "status": "valid",
+                    "n_vals": 1688
+                },
+                "deaths": {
+                    "status": "valid",
+                    "n_vals": 304
+                }
+            },
+            "Maryland": {
+                "fips": {
+                    "status": "valid",
+                    "n_vals": 25
+                },
+                "cases": {
+                    "status": "valid",
+                    "n_vals": 1932
+                },
+                "deaths": {
+                    "status": "valid",
+                    "n_vals": 522
+                }
+            },
+            "Nevada": {
+                "fips": {
+                    "status": "valid",
+                    "n_vals": 17
+                },
+                "cases": {
+                    "status": "valid",
+                    "n_vals": 593
+                },
+                "deaths": {
+                    "status": "valid",
+                    "n_vals": 201
+                }
+            },
+            "Tennessee": {
+                "fips": {
+                    "status": "valid",
+                    "n_vals": 96
+                },
+                "cases": {
+                    "status": "valid",
+                    "n_vals": 1943
+                },
+                "deaths": {
+                    "status": "valid",
+                    "n_vals": 214
+                }
+            },
+            "Hawaii": {
+                "fips": {
+                    "status": "valid",
+                    "n_vals": 5
+                },
+                "cases": {
+                    "status": "valid",
+                    "n_vals": 288
+                },
+                "deaths": {
+                    "status": "valid",
+                    "n_vals": 32
+                }
+            },
+            "Indiana": {
+                "fips": {
+                    "status": "valid",
+                    "n_vals": 93
+                },
+                "cases": {
+                    "status": "valid",
+                    "n_vals": 1944
+                },
+                "deaths": {
+                    "status": "valid",
+                    "n_vals": 325
+                }
+            },
+            "Kentucky": {
+                "fips": {
+                    "status": "valid",
+                    "n_vals": 121
+                },
+                "cases": {
+                    "status": "valid",
+                    "n_vals": 1078
+                },
+                "deaths": {
+                    "status": "valid",
+                    "n_vals": 135
+                }
+            },
+            "Minnesota": {
+                "fips": {
+                    "status": "valid",
+                    "n_vals": 88
+                },
+                "cases": {
+                    "status": "valid",
+                    "n_vals": 1637
+                },
+                "deaths": {
+                    "status": "valid",
+                    "n_vals": 289
+                }
+            },
+            "Oklahoma": {
+                "fips": {
+                    "status": "valid",
+                    "n_vals": 78
+                },
+                "cases": {
+                    "status": "valid",
+                    "n_vals": 1139
+                },
+                "deaths": {
+                    "status": "valid",
+                    "n_vals": 126
+                }
+            },
+            "Pennsylvania": {
+                "fips": {
+                    "status": "valid",
+                    "n_vals": 68
+                },
+                "cases": {
+                    "status": "valid",
+                    "n_vals": 2755
+                },
+                "deaths": {
+                    "status": "valid",
+                    "n_vals": 659
+                }
+            },
+            "South Carolina": {
+                "fips": {
+                    "status": "valid",
+                    "n_vals": 47
+                },
+                "cases": {
+                    "status": "valid",
+                    "n_vals": 2029
+                },
+                "deaths": {
+                    "status": "valid",
+                    "n_vals": 211
+                }
+            },
+            "District of Columbia": {
+                "fips": {
+                    "status": "valid",
+                    "n_vals": 1
+                },
+                "cases": {
+                    "status": "valid",
+                    "n_vals": 170
+                },
+                "deaths": {
+                    "status": "valid",
+                    "n_vals": 127
+                }
+            },
+            "Kansas": {
+                "fips": {
+                    "status": "valid",
+                    "n_vals": 106
+                },
+                "cases": {
+                    "status": "valid",
+                    "n_vals": 997
+                },
+                "deaths": {
+                    "status": "valid",
+                    "n_vals": 111
+                }
+            },
+            "Missouri": {
+                "fips": {
+                    "status": "valid",
+                    "n_vals": 116
+                },
+                "cases": {
+                    "status": "valid",
+                    "n_vals": 1461
+                },
+                "deaths": {
+                    "status": "valid",
+                    "n_vals": 234
+                }
+            },
+            "Vermont": {
+                "fips": {
+                    "status": "valid",
+                    "n_vals": 15
+                },
+                "cases": {
+                    "status": "valid",
+                    "n_vals": 236
+                },
+                "deaths": {
+                    "status": "valid",
+                    "n_vals": 32
+                }
+            },
+            "Virginia": {
+                "fips": {
+                    "status": "valid",
+                    "n_vals": 134
+                },
+                "cases": {
+                    "status": "valid",
+                    "n_vals": 2203
+                },
+                "deaths": {
+                    "status": "valid",
+                    "n_vals": 261
+                }
+            },
+            "Connecticut": {
+                "fips": {
+                    "status": "valid",
+                    "n_vals": 9
+                },
+                "cases": {
+                    "status": "valid",
+                    "n_vals": 1033
+                },
+                "deaths": {
+                    "status": "valid",
+                    "n_vals": 411
+                }
+            },
+            "Iowa": {
+                "fips": {
+                    "status": "valid",
+                    "n_vals": 100
+                },
+                "cases": {
+                    "status": "valid",
+                    "n_vals": 1650
+                },
+                "deaths": {
+                    "status": "valid",
+                    "n_vals": 151
+                }
+            },
+            "Louisiana": {
+                "fips": {
+                    "status": "valid",
+                    "n_vals": 65
+                },
+                "cases": {
+                    "status": "valid",
+                    "n_vals": 2433
+                },
+                "deaths": {
+                    "status": "valid",
+                    "n_vals": 430
+                }
+            },
+            "Ohio": {
+                "fips": {
+                    "status": "valid",
+                    "n_vals": 89
+                },
+                "cases": {
+                    "status": "valid",
+                    "n_vals": 2236
+                },
+                "deaths": {
+                    "status": "valid",
+                    "n_vals": 408
+                }
+            },
+            "Michigan": {
+                "fips": {
+                    "status": "valid",
+                    "n_vals": 84
+                },
+                "cases": {
+                    "status": "valid",
+                    "n_vals": 2145
+                },
+                "deaths": {
+                    "status": "valid",
+                    "n_vals": 511
+                }
+            },
+            "South Dakota": {
+                "fips": {
+                    "status": "valid",
+                    "n_vals": 67
+                },
+                "cases": {
+                    "status": "valid",
+                    "n_vals": 632
+                },
+                "deaths": {
+                    "status": "valid",
+                    "n_vals": 57
+                }
+            },
+            "Arkansas": {
+                "fips": {
+                    "status": "valid",
+                    "n_vals": 76
+                },
+                "cases": {
+                    "status": "valid",
+                    "n_vals": 1447
+                },
+                "deaths": {
+                    "status": "valid",
+                    "n_vals": 85
+                }
+            },
+            "Delaware": {
+                "fips": {
+                    "status": "valid",
+                    "n_vals": 4
+                },
+                "cases": {
+                    "status": "valid",
+                    "n_vals": 539
+                },
+                "deaths": {
+                    "status": "valid",
+                    "n_vals": 163
+                }
+            },
+            "Mississippi": {
+                "fips": {
+                    "status": "valid",
+                    "n_vals": 83
+                },
+                "cases": {
+                    "status": "valid",
+                    "n_vals": 1624
+                },
+                "deaths": {
+                    "status": "valid",
+                    "n_vals": 119
+                }
+            },
+            "New Mexico": {
+                "fips": {
+                    "status": "valid",
+                    "n_vals": 33
+                },
+                "cases": {
+                    "status": "valid",
+                    "n_vals": 1079
+                },
+                "deaths": {
+                    "status": "valid",
+                    "n_vals": 204
+                }
+            },
+            "North Dakota": {
+                "fips": {
+                    "status": "valid",
+                    "n_vals": 54
+                },
+                "cases": {
+                    "status": "valid",
+                    "n_vals": 559
+                },
+                "deaths": {
+                    "status": "valid",
+                    "n_vals": 54
+                }
+            },
+            "Wyoming": {
+                "fips": {
+                    "status": "valid",
+                    "n_vals": 24
+                },
+                "cases": {
+                    "status": "valid",
+                    "n_vals": 399
+                },
+                "deaths": {
+                    "status": "valid",
+                    "n_vals": 14
+                }
+            },
+            "Alaska": {
+                "fips": {
+                    "status": "valid",
+                    "n_vals": 27
+                },
+                "cases": {
+                    "status": "valid",
+                    "n_vals": 377
+                },
+                "deaths": {
+                    "status": "valid",
+                    "n_vals": 19
+                }
+            },
+            "Maine": {
+                "fips": {
+                    "status": "valid",
+                    "n_vals": 17
+                },
+                "cases": {
+                    "status": "valid",
+                    "n_vals": 486
+                },
+                "deaths": {
+                    "status": "valid",
+                    "n_vals": 53
+                }
+            },
+            "Alabama": {
+                "fips": {
+                    "status": "valid",
+                    "n_vals": 67
+                },
+                "cases": {
+                    "status": "valid",
+                    "n_vals": 2098
+                },
+                "deaths": {
+                    "status": "valid",
+                    "n_vals": 206
+                }
+            },
+            "Idaho": {
+                "fips": {
+                    "status": "valid",
+                    "n_vals": 45
+                },
+                "cases": {
+                    "status": "valid",
+                    "n_vals": 816
+                },
+                "deaths": {
+                    "status": "valid",
+                    "n_vals": 75
+                }
+            },
+            "Montana": {
+                "fips": {
+                    "status": "valid",
+                    "n_vals": 55
+                },
+                "cases": {
+                    "status": "valid",
+                    "n_vals": 391
+                },
+                "deaths": {
+                    "status": "valid",
+                    "n_vals": 31
+                }
+            },
+            "Puerto Rico": {
+                "fips": {
+                    "status": "valid",
+                    "n_vals": 79
+                },
+                "cases": {
+                    "status": "valid",
+                    "n_vals": 839
+                },
+                "deaths": {
+                    "status": "valid",
+                    "n_vals": 39
+                }
+            },
+            "Virgin Islands": {
+                "fips": {
+                    "status": "valid",
+                    "n_vals": 4
+                },
+                "cases": {
+                    "status": "valid",
+                    "n_vals": 138
+                },
+                "deaths": {
+                    "status": "valid",
+                    "n_vals": 9
+                }
+            },
+            "Guam": {
+                "fips": {
+                    "status": "valid",
+                    "n_vals": 1
+                },
+                "cases": {
+                    "status": "valid",
+                    "n_vals": 113
+                },
+                "deaths": {
+                    "status": "valid",
+                    "n_vals": 10
+                }
+            },
+            "West Virginia": {
+                "fips": {
+                    "status": "valid",
+                    "n_vals": 56
+                },
+                "cases": {
+                    "status": "valid",
+                    "n_vals": 525
+                },
+                "deaths": {
+                    "status": "valid",
+                    "n_vals": 28
+                }
+            },
+            "Northern Mariana Islands": {
+                "fips": {
+                    "status": "valid",
+                    "n_vals": 3
+                },
+                "cases": {
+                    "status": "valid",
+                    "n_vals": 34
+                },
+                "deaths": {
+                    "status": "valid",
+                    "n_vals": 3
+                }
+            }
+        }
+    }
+}

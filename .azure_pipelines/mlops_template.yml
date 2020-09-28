@@ -1,0 +1,37 @@
+steps:
+- task: UsePythonVersion@0
+  displayName: 'Use Python 3.x'
+
+- task: Bash@3
+  inputs:
+    targetType: 'inline'
+    script: |
+      pip install --upgrade pip
+      pip install --upgrade databricks-cli
+      pip install mlflow
+      pip install python-dotenv
+      pip install wheel
+      pip install setuptools
+      pip install jinja2
+      pip install argparse
+  displayName: 'Install Packages'
+
+- task: Bash@3
+  displayName: Login Databricks CLI
+  inputs:
+    targetType: "inline"
+    script: |
+      databricks configure --token << ANSWERS
+      $(DATABRICKS_HOST)
+      $(DATABRICKS_TOKEN)
+      ANSWERS
+
+- task: Bash@3
+  displayName: Create databricks workspace directory
+  inputs:
+    targetType: 'inline'
+    script: |
+      branch_name=`echo "$(Build.SourceBranchName)" | sed 's/[^a-zA-Z0-9]//g'`
+      workspace_dir="/Shared/${branch_name}/$(PROJECT_NAME)"
+      databricks workspace mkdirs "${workspace_dir}"
+      echo "##vso[task.setvariable variable=MODEL_WORKSPACE_DIR]$workspace_dir"
