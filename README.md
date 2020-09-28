@@ -1,6 +1,6 @@
-# Drift Monitoring of Healthcare Data Example
+# Clinical Data Drift Monitoring Example
 
-In ["blog post title here"](URL), I detail our approach to implementing data drift monitoring of healthcare data for Philips in a Microsoft Commercial Software Engineering (CSE) and Philips collaboration.
+In ["Building a clinical data drift monitoring system with Azure Databricks and MLFlow"](URL), we detail our approach to implementing data drift monitoring of healthcare data for Philips in a Microsoft Commercial Software Engineering (CSE) and Philips collaboration.
 
 This repository contains example code and provides documentation on how to set up a data drift monitoring pipeline in Azure DevOps using the open source [New York Times COVID-19 dataset](https://github.com/nytimes/covid-19-data).
 
