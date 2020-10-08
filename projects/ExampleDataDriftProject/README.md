@@ -21,15 +21,15 @@ Results for schema validation and distribution drift were written to SQL tables 
 
 ### Schema Validation
 
-In the Philips PCA Phase II engagement, we performed schema validation for a select few model input features. In this example, we perform schema validation for all three features of interest in the [New York Times COVID-19 dataset](https://github.com/nytimes/covid-19-data). More details in the [Schema Validation readme](/validation/README.md).
+In the Philips PCA Phase II engagement, we performed schema validation for a select few model input features. In this example, we perform schema validation for all three features of interest in the [New York Times COVID-19 dataset](https://github.com/nytimes/covid-19-data). More details in the [Schema Validation readme](validation/README.md).
 
 ### Distribution Drift
 
-Distribution drift was calculated for all input features used in the benchmark mortality model using the Python library [alibi-detect](https://docs.seldon.io/projects/alibi-detect/en/latest/methods/ksdrift.html). More details in the [Distribution Drift readme](/distribution/README.md).
+Distribution drift was calculated for all input features used in the benchmark mortality model using the Python library [alibi-detect](https://docs.seldon.io/projects/alibi-detect/en/latest/methods/ksdrift.html). More details in the [Distribution Drift readme](distribution/README.md).
 
 ## Example Data
 
-In this example project, we use the New York Times [public COVID-19 dataset](https://github.com/nytimes/covid-19-data). The data by county as of 2020-08-27 was pulled and saved into `data/covid_sample_data_US_counties.csv`. For more details, see the [data readme](/data/README.md).
+In this example project, we use the New York Times [public COVID-19 dataset](https://github.com/nytimes/covid-19-data). The data by county as of 2020-08-27 was pulled and saved into `data/covid_sample_data_US_counties.csv`. For more details, see the [data readme](data/README.md).
 
 ## Pipeline Creation
 
