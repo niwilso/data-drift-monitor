@@ -1,8 +1,8 @@
 # README
 
-This example project demonstrates how data drift monitoring was performed for the Philips PCA Phase II engagement, using MLFlow on Databricks. In this example, we adapted the code to be more generalizable and work with an open dataset.
+This example project demonstrates how data drift monitoring was performed for the Philips PCA Phase II engagement, using MLflow on Databricks. In this example, we adapted the code to be more generalizable and work with an open dataset.
 
-Pipeline variables from the Azure DevOps pipeline are read as parameters in `[MLFlow entry point]/parameters.json.j2`. These parameters are then passed into the Python script calls in `MLProject`.
+Pipeline variables from the Azure DevOps pipeline are read as parameters in `[MLflow entry point]/parameters.json.j2`. These parameters are then passed into the Python script calls in `MLProject`.
 
 Note, some functions have been adapted to read in a .csv file for this example project. In the original code, data was read in from and written to SQL tables.
 
@@ -49,4 +49,4 @@ The data drift monitoring pipeline will need to be created in Azure DevOps using
 | TARGET_END       | 2019-08-27           | End date of the target period in YYYY-MM-DD format.                                                                        |
 | TARGET_START     | 2019-08-01           | Start date of the target period in YYYY-MM-DD format.                                                                      |
 
-Once the pipeline is triggered in Azure DevOps, see the "Execute Data Drift Project (schema validation)" and "Execute Data Drift Project (distribution drift)" steps to click a link to the Databricks MLFlow job run page. On this run page, you can see what is being written to standard out / standard error. Note, the PyArrow error printed to standard error can be ignored as it does not affect any of the processes. At the top of the run page, you may see job status and run time.
+Once the pipeline is triggered in Azure DevOps, see the "Execute Data Drift Project (schema validation)" and "Execute Data Drift Project (distribution drift)" steps to click a link to the Databricks MLflow job run page. On this run page, you can see what is being written to standard out / standard error. Note, the PyArrow error printed to standard error can be ignored as it does not affect any of the processes. At the top of the run page, you may see job status and run time.
