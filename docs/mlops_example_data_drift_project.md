@@ -41,4 +41,4 @@ There are the pipelines for running the [`ExampleDataDriftProject`](../projects/
 ![mlops-drift-databricks](assets/drift_example/mlops-drift-databricks.png)
 
 1. Access results (stored artifacts) in the completed run page on Databricks.
-![mlops-drift-databricks-artifacts](assets/drift_example/mlops-drift-databricks-artifacts.png)
+![mlops-drift-databricks-artifacts](assets/drift_example/mlops-drift-databricks-artifacts-preview.png)
