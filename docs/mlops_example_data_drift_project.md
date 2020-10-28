@@ -35,7 +35,7 @@ There are the pipelines for running the [`ExampleDataDriftProject`](../projects/
 1. Manually trigger the created Data Drift Pipeline from any branch.
 
 1. Follow link from Data Drift Pipeline to access Databricks run. Optionally, access it from the Databricks workspace under `/Shared/<branch name>/ExampleDataDriftProject/data_drift`.
-![mlops-drift-run](assets/drift_example/mlops-drift-run.png)
+![mlops-drift-run](assets/drift_example/mlops-drift-run-databricks.png)
 
 1. Wait for the experiment run to complete on Databricks.
 ![mlops-drift-databricks](assets/drift_example/mlops-drift-databricks.png)
